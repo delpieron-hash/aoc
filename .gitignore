@@ -1,0 +1,12 @@
+# VScode settings
+.vscode
+
+# Ignore AoC puzzle text, inputs etc.
+*.txt
+
+# Python
+*.pyc
+
+# Custom tests
+timing.py
+profiler.py
