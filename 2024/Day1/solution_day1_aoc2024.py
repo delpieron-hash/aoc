@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 1
 
+Full problem: https://adventofcode.com/2024/day/1
+
 A: Finding the sum of distances between two lists of numbers. The distance should be 
 measured as the difference between the numbers ordered from smallest to largest
 

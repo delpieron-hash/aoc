@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 5
 
+Full problem: https://adventofcode.com/2024/day/5
+
 A: Find all valid (i.e. correctly ordered) updates and sum their middle page numbers
 
 B: Fix all incorrect updates (i.e. order them correctly) and sum their middle page numbers

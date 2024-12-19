@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 9
 
+Full problem: https://adventofcode.com/2024/day/9
+
 A: Calculate the checksum of the disk map after compacting the disk by individual blocks
 
 B: Calculate the checksum of the disk map after compacting the disk by block groups

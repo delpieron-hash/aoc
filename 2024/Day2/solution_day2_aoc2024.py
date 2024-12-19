@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 2
 
+Full problem: https://adventofcode.com/2024/day/2
+
 A: Find the count of lists of numbers that satisfy two rules. The numbers must be 
 either in increasing or decreasing order. The difference between two adjacent 
 numbers must be between 1 and 3.

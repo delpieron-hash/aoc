@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 3
 
+Full problem: https://adventofcode.com/2024/day/3
+
 A: Find the multiplications with correct syntax and sum the results
 
 B: Find the correct multiplications that are enabled by contextual instructions

@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 7
 
+Full problem: https://adventofcode.com/2024/day/7
+
 A: Find the correct equations and sum their test values
 
 B: Sum the test values of correct equations if the concatenation operator is allowed

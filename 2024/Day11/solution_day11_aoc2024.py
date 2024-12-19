@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 11
 
+Full problem: https://adventofcode.com/2024/day/11
+
 A: Count the number of magic stones after 25 blinks (evolutions)
 
 B: Count the number of magic stones after 75 blinks (evolutions)

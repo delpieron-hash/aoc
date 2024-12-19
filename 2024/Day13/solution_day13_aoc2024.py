@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 13
 
+Full problem: https://adventofcode.com/2024/day/13
+
 A: Find the total optimal token cost to win all possible machine prizes
 
 B: Find the total optimal token cost to win all possible machine prizes with 

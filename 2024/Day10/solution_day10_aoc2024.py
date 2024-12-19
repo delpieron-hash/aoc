@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 10
 
+Full problem: https://adventofcode.com/2024/day/10
+
 A: Sum up the total number of hiking trails in the map leading to a distinct trailend
 
 B: Sum up the total number of hiking trails in the map with a distinct trailpath

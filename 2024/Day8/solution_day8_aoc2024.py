@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 8
 
+Full problem: https://adventofcode.com/2024/day/8
+
 A: Count the number of equal distance antinodes created by same frequency antenna pairs
 
 B: Count the number of all antinodes created in line by same frequency antenna pairs

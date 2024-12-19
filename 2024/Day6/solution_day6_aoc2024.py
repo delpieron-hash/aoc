@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 6
 
+Full problem: https://adventofcode.com/2024/day/6
+
 A: Count the number of visited cells by the guard including the start position
 
 B: Count the number of obstacle placements that force the guard to enter an infinite loop

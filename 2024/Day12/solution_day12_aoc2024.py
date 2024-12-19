@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 12
 
+Full problem: https://adventofcode.com/2024/day/12
+
 A: Calculate the total price of fencing all regions on the map if price is calculated as perimeter
 times area
 

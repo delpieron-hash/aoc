@@ -2,6 +2,8 @@
 Advent of Code 2024
 Day 4
 
+Full problem: https://adventofcode.com/2024/day/4
+
 A: Count the number of times XMAS appears in the word map 
     in horizontal, vertical, and diagonal directions
 
