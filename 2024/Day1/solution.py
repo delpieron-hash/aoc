@@ -4,43 +4,37 @@ Day 1
 
 Full problem: https://adventofcode.com/2024/day/1
 
-A: Finding the sum of distances between two lists of numbers. The distance should be 
+A: Finding the sum of distances between two lists of numbers. The distance should be
 measured as the difference between the numbers ordered from smallest to largest
 
 B: Calculating the product of the numbers in the first list that are also in the second list
 and their frequency in the second list
 """
 
-import re
 from collections import Counter
+from collections.abc import Iterator
 from pathlib import Path
 
-INPUT_FILE = "input_day1_aoc2024.txt"
+INPUT_FILE = "input.txt"
+TEST_INPUT_FILE = "test_input.txt"
 
 
-def read_input(filename: str | None = None) -> tuple[list[int], list[int]]:
+def read_pairs(filename: str) -> Iterator[tuple[int, int]]:
     """
-    Read number pairs from file
+    Read number pairs from a file
 
     Args:
-        filename (str | None): Name of file to read from
+        filename (str): Name of the file to read
 
     Returns:
-        tuple[list[int], list[int]]: Two lists of numbers
+        Iterator[tuple[int, int]]: Iterator of tuples of two integers
     """
-    input_name = filename or INPUT_FILE
-    input_src = Path(Path(__file__).parent / input_name)
-
-    listA, listB = [], []
+    input_src = Path(__file__).parent / filename
 
     with open(input_src, "r") as f:
-        num_pattern = re.compile(r"(\d+)\s+(\d+)")
         for line in f:
-            matches = re.findall(num_pattern, line.strip())
-            listA.append(int(matches[0][0]))
-            listB.append(int(matches[0][1]))
-
-    return listA, listB
+            left, right = line.split()
+            yield int(left), int(right)
 
 
 def main():
@@ -50,7 +44,7 @@ def main():
     Reads the input from a file, calculates and prints the solution to
     both parts of the problem.
     """
-    listA, listB = read_input()
+    listA, listB = zip(*read_pairs(INPUT_FILE))
 
     distance = sum(abs(a - b) for a, b in zip(sorted(listA), sorted(listB)))
     print(f"Problem 1: {distance}")

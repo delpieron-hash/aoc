@@ -10,3 +10,6 @@
 # Custom tests
 timing.py
 profiler.py
+
+# Environment
+pyproject.toml
