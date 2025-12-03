@@ -13,8 +13,8 @@ a sequence of digits repeated twice or more.
 
 import math
 import re
+from collections.abc import Iterator
 from pathlib import Path
-from typing import Iterator
 
 from attrs import define
 
