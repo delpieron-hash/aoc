@@ -13,6 +13,7 @@ a paper roll has less than 4 adjacent paper rolls it is replaced with empty spac
 
 from enum import StrEnum
 from pathlib import Path
+from typing import NewType
 
 from attrs import define, field
 
@@ -20,7 +21,7 @@ INPUT_FILE = "input.txt"
 TEST_INPUT_FILE = "test_input.txt"
 
 
-Position = tuple[int, int]
+Position = NewType("Position", tuple[int, int])
 
 
 class Cell(StrEnum):
@@ -61,7 +62,7 @@ class FloorMap:
         self.max_x = len(self.grid[0]) - 1
         self.max_y = len(self.grid) - 1
         self.paper_positions = {
-            (col_idx, row_idx)
+            Position((col_idx, row_idx))
             for row_idx, row in enumerate(self.grid)
             for col_idx, cell in enumerate(row)
             if cell == Cell.PAPER
