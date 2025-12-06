@@ -47,6 +47,8 @@ repos:
         description: Static type checking for Python
         entry: uv run pyright
         language: system
+        types: [python]
+        always_run: true
 
   - repo: local
     hooks:
